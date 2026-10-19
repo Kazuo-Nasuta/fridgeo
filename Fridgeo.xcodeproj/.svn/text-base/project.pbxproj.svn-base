@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FridgeoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FridgeoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* Fridgeo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* Fridgeo.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		7E57EAB5125F428C003BDEC0 /* choosePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAB4125F428C003BDEC0 /* choosePhoto.png */; };
+		7E57EADD125F42C8003BDEC0 /* ContentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAB8125F42C7003BDEC0 /* ContentDetailViewController.m */; };
+		7E57EADE125F42C8003BDEC0 /* ContentAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EABA125F42C7003BDEC0 /* ContentAddViewController.m */; };
+		7E57EADF125F42C8003BDEC0 /* ContentListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EABC125F42C8003BDEC0 /* ContentListTableViewController.m */; };
+		7E57EAE0125F42C8003BDEC0 /* ContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EABE125F42C8003BDEC0 /* ContentTableViewCell.m */; };
+		7E57EAE1125F42C8003BDEC0 /* ItemAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAC0125F42C8003BDEC0 /* ItemAddViewController.m */; };
+		7E57EAE3125F42C8003BDEC0 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAC3125F42C8003BDEC0 /* ItemDetailViewController.m */; };
+		7E57EAE4125F42C8003BDEC0 /* ItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAC5125F42C8003BDEC0 /* ItemListTableViewController.m */; };
+		7E57EAE6125F42C8003BDEC0 /* ItemSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAC8125F42C8003BDEC0 /* ItemSelectionViewController.m */; };
+		7E57EAE8125F42C8003BDEC0 /* QtyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EACB125F42C8003BDEC0 /* QtyPickerViewController.m */; };
+		7E57EAEA125F42C8003BDEC0 /* SectionPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EACE125F42C8003BDEC0 /* SectionPickerViewController.m */; };
+		7E57EAEC125F42C8003BDEC0 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAD1125F42C8003BDEC0 /* DatePickerViewController.m */; };
+		7E57EAED125F42C8003BDEC0 /* StorageAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAD3125F42C8003BDEC0 /* StorageAddViewController.m */; };
+		7E57EAEF125F42C8003BDEC0 /* StorageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAD6125F42C8003BDEC0 /* StorageDetailViewController.m */; };
+		7E57EAF0125F42C8003BDEC0 /* StorageListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAD8125F42C8003BDEC0 /* StorageListTableViewController.m */; };
+		7E57EAF2125F42C8003BDEC0 /* StorageSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EADB125F42C8003BDEC0 /* StorageSelectionViewController.m */; };
+		7E57EAFD125F42EF003BDEC0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAF6125F42EF003BDEC0 /* Item.m */; };
+		7E57EB00125F42EF003BDEC0 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57EAFC125F42EF003BDEC0 /* Image.m */; };
+		7E6B76C31269D573002395B2 /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B76C21269D573002395B2 /* Storage.m */; };
+		7E6B770D126A654F002395B2 /* HistoryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B770C126A654F002395B2 /* HistoryListTableViewController.m */; };
+		7E6B7820126B3389002395B2 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B781E126B3389002395B2 /* HistoryCell.m */; };
+		7E6B7826126B33E8002395B2 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6B7825126B33E8002395B2 /* HistoryCell.xib */; };
+		7E7CC734126717D100624154 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CC733126717D100624154 /* Content.m */; };
+		7E906AD71281010200F291D6 /* DataLoadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E906AD61281010200F291D6 /* DataLoadController.m */; };
+		7E95EE961279B13300998CFB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EE941279B13300998CFB /* Icon.png */; };
+		7E95EE971279B13300998CFB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EE951279B13300998CFB /* Icon@2x.png */; };
+		7E9BC5ED1269174F00C69139 /* a0024_000086.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E9BC5EC1269174F00C69139 /* a0024_000086.jpg */; };
+		7E9EC6A1127C2A6600D141B1 /* noimage44.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E9EC6A0127C2A6600D141B1 /* noimage44.png */; };
+		7EA1EF7A12608AA800D311FB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1EF7812608AA800D311FB /* SettingsViewController.m */; };
+		7EBF66BA1274041C00216CBE /* SectionPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF66B91274041C00216CBE /* SectionPickerView.xib */; };
+		7EBF66C01274045F00216CBE /* StorageDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF66BF1274045F00216CBE /* StorageDetailView.xib */; };
+		7EBF66C7127404D200216CBE /* StorageSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAD9125F42C8003BDEC0 /* StorageSelectionView.xib */; };
+		7EBF66CB1274057800216CBE /* ContentDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAB6125F42C7003BDEC0 /* ContentDetailView.xib */; };
+		7EBF66CC1274058900216CBE /* ItemDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAC1125F42C8003BDEC0 /* ItemDetailView.xib */; };
+		7EBF66CE127405AE00216CBE /* ItemSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAC6125F42C8003BDEC0 /* ItemSelectionView.xib */; };
+		7EBF66CF127405C000216CBE /* QtyPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EAC9125F42C8003BDEC0 /* QtyPickerView.xib */; };
+		7EBF66D1127405D700216CBE /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57EACF125F42C8003BDEC0 /* DatePickerView.xib */; };
+		7EBF66F912741EF300216CBE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF66F812741EF300216CBE /* MainWindow.xib */; };
+		7EBF67131274297600216CBE /* Item.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF67121274297600216CBE /* Item.plist */; };
+		7EBF672712742C9E00216CBE /* Storage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF672612742C9E00216CBE /* Storage.plist */; };
+		7EBF673512742D4700216CBE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EBF673412742D4700216CBE /* Localizable.strings */; };
+		7EE5A7361272C13900EA2278 /* tbcontent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5A7311272C13900EA2278 /* tbcontent.png */; };
+		7EE5A7371272C13900EA2278 /* tbhistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5A7321272C13900EA2278 /* tbhistory.png */; };
+		7EE5A7381272C13900EA2278 /* tbitem.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5A7331272C13900EA2278 /* tbitem.png */; };
+		7EE5A7391272C13900EA2278 /* tbsettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5A7341272C13900EA2278 /* tbsettings.png */; };
+		7EE5A73A1272C13900EA2278 /* tbstorage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5A7351272C13900EA2278 /* tbstorage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FridgeoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FridgeoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FridgeoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FridgeoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Fridgeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridgeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28C3AD890F43EF2300507BA6 /* Fridgeo.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Fridgeo.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Fridgeo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fridgeo_Prefix.pch; sourceTree = "<group>"; };
+		7E57EAB4125F428C003BDEC0 /* choosePhoto.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = choosePhoto.png; sourceTree = "<group>"; };
+		7E57EAB6125F42C7003BDEC0 /* ContentDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentDetailView.xib; sourceTree = "<group>"; };
+		7E57EAB7125F42C7003BDEC0 /* ContentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentDetailViewController.h; sourceTree = "<group>"; };
+		7E57EAB8125F42C7003BDEC0 /* ContentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentDetailViewController.m; sourceTree = "<group>"; };
+		7E57EAB9125F42C7003BDEC0 /* ContentAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentAddViewController.h; sourceTree = "<group>"; };
+		7E57EABA125F42C7003BDEC0 /* ContentAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentAddViewController.m; sourceTree = "<group>"; };
+		7E57EABB125F42C7003BDEC0 /* ContentListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentListTableViewController.h; sourceTree = "<group>"; };
+		7E57EABC125F42C8003BDEC0 /* ContentListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentListTableViewController.m; sourceTree = "<group>"; };
+		7E57EABD125F42C8003BDEC0 /* ContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewCell.h; sourceTree = "<group>"; };
+		7E57EABE125F42C8003BDEC0 /* ContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewCell.m; sourceTree = "<group>"; };
+		7E57EABF125F42C8003BDEC0 /* ItemAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemAddViewController.h; sourceTree = "<group>"; };
+		7E57EAC0125F42C8003BDEC0 /* ItemAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemAddViewController.m; sourceTree = "<group>"; };
+		7E57EAC1125F42C8003BDEC0 /* ItemDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDetailView.xib; sourceTree = "<group>"; };
+		7E57EAC2125F42C8003BDEC0 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		7E57EAC3125F42C8003BDEC0 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		7E57EAC4125F42C8003BDEC0 /* ItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewController.h; sourceTree = "<group>"; };
+		7E57EAC5125F42C8003BDEC0 /* ItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewController.m; sourceTree = "<group>"; };
+		7E57EAC6125F42C8003BDEC0 /* ItemSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemSelectionView.xib; sourceTree = "<group>"; };
+		7E57EAC7125F42C8003BDEC0 /* ItemSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSelectionViewController.h; sourceTree = "<group>"; };
+		7E57EAC8125F42C8003BDEC0 /* ItemSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSelectionViewController.m; sourceTree = "<group>"; };
+		7E57EAC9125F42C8003BDEC0 /* QtyPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QtyPickerView.xib; sourceTree = "<group>"; };
+		7E57EACA125F42C8003BDEC0 /* QtyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QtyPickerViewController.h; sourceTree = "<group>"; };
+		7E57EACB125F42C8003BDEC0 /* QtyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QtyPickerViewController.m; sourceTree = "<group>"; };
+		7E57EACC125F42C8003BDEC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SectionPickerView.xib; sourceTree = "<group>"; };
+		7E57EACD125F42C8003BDEC0 /* SectionPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionPickerViewController.h; sourceTree = "<group>"; };
+		7E57EACE125F42C8003BDEC0 /* SectionPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionPickerViewController.m; sourceTree = "<group>"; };
+		7E57EACF125F42C8003BDEC0 /* DatePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
+		7E57EAD0125F42C8003BDEC0 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		7E57EAD1125F42C8003BDEC0 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		7E57EAD2125F42C8003BDEC0 /* StorageAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageAddViewController.h; sourceTree = "<group>"; };
+		7E57EAD3125F42C8003BDEC0 /* StorageAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageAddViewController.m; sourceTree = "<group>"; };
+		7E57EAD4125F42C8003BDEC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/StorageDetailView.xib; sourceTree = "<group>"; };
+		7E57EAD5125F42C8003BDEC0 /* StorageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageDetailViewController.h; sourceTree = "<group>"; };
+		7E57EAD6125F42C8003BDEC0 /* StorageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageDetailViewController.m; sourceTree = "<group>"; };
+		7E57EAD7125F42C8003BDEC0 /* StorageListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageListTableViewController.h; sourceTree = "<group>"; };
+		7E57EAD8125F42C8003BDEC0 /* StorageListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageListTableViewController.m; sourceTree = "<group>"; };
+		7E57EAD9125F42C8003BDEC0 /* StorageSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StorageSelectionView.xib; sourceTree = "<group>"; };
+		7E57EADA125F42C8003BDEC0 /* StorageSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageSelectionViewController.h; sourceTree = "<group>"; };
+		7E57EADB125F42C8003BDEC0 /* StorageSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageSelectionViewController.m; sourceTree = "<group>"; };
+		7E57EAF5125F42EF003BDEC0 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		7E57EAF6125F42EF003BDEC0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		7E57EAFB125F42EF003BDEC0 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		7E57EAFC125F42EF003BDEC0 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		7E57EB0C125F451D003BDEC0 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7E6B76C11269D573002395B2 /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		7E6B76C21269D573002395B2 /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		7E6B770B126A654F002395B2 /* HistoryListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryListTableViewController.h; sourceTree = "<group>"; };
+		7E6B770C126A654F002395B2 /* HistoryListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryListTableViewController.m; sourceTree = "<group>"; };
+		7E6B781D126B3389002395B2 /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		7E6B781E126B3389002395B2 /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		7E6B7825126B33E8002395B2 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		7E7CC732126717D100624154 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		7E7CC733126717D100624154 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		7E906AD51281010200F291D6 /* DataLoadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoadController.h; sourceTree = "<group>"; };
+		7E906AD61281010200F291D6 /* DataLoadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLoadController.m; sourceTree = "<group>"; };
+		7E95EE941279B13300998CFB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7E95EE951279B13300998CFB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7E9BC5EC1269174F00C69139 /* a0024_000086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0024_000086.jpg; sourceTree = "<group>"; };
+		7E9EC6A0127C2A6600D141B1 /* noimage44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage44.png; sourceTree = "<group>"; };
+		7EA1EF7712608AA800D311FB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7EA1EF7812608AA800D311FB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7EBF66BB1274042700216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/SectionPickerView.xib; sourceTree = "<group>"; };
+		7EBF66C11274046800216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/StorageDetailView.xib; sourceTree = "<group>"; };
+		7EBF66FA12741EFF00216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7EBF67101274296E00216CBE /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Item.plist; sourceTree = "<group>"; };
+		7EBF67141274297F00216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Japanese; path = Japanese.lproj/Item.plist; sourceTree = "<group>"; };
+		7EBF672412742C5E00216CBE /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/Storage.plist; sourceTree = "<group>"; };
+		7EBF672812742CA900216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Japanese; path = Japanese.lproj/Storage.plist; sourceTree = "<group>"; };
+		7EBF673212742D2A00216CBE /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EBF673612742D5200216CBE /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EE5A7311272C13900EA2278 /* tbcontent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbcontent.png; sourceTree = "<group>"; };
+		7EE5A7321272C13900EA2278 /* tbhistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbhistory.png; sourceTree = "<group>"; };
+		7EE5A7331272C13900EA2278 /* tbitem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbitem.png; sourceTree = "<group>"; };
+		7EE5A7341272C13900EA2278 /* tbsettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbsettings.png; sourceTree = "<group>"; };
+		7EE5A7351272C13900EA2278 /* tbstorage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tbstorage.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Fridgeo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fridgeo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FridgeoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FridgeoAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Fridgeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7E57EAB6125F42C7003BDEC0 /* ContentDetailView.xib */,
+				7E57EAB7125F42C7003BDEC0 /* ContentDetailViewController.h */,
+				7E57EAB8125F42C7003BDEC0 /* ContentDetailViewController.m */,
+				7E57EAB9125F42C7003BDEC0 /* ContentAddViewController.h */,
+				7E57EABA125F42C7003BDEC0 /* ContentAddViewController.m */,
+				7E57EABB125F42C7003BDEC0 /* ContentListTableViewController.h */,
+				7E57EABC125F42C8003BDEC0 /* ContentListTableViewController.m */,
+				7E57EABD125F42C8003BDEC0 /* ContentTableViewCell.h */,
+				7E57EABE125F42C8003BDEC0 /* ContentTableViewCell.m */,
+				7E57EABF125F42C8003BDEC0 /* ItemAddViewController.h */,
+				7E57EAC0125F42C8003BDEC0 /* ItemAddViewController.m */,
+				7E57EAC1125F42C8003BDEC0 /* ItemDetailView.xib */,
+				7E57EAC2125F42C8003BDEC0 /* ItemDetailViewController.h */,
+				7E57EAC3125F42C8003BDEC0 /* ItemDetailViewController.m */,
+				7E57EAC4125F42C8003BDEC0 /* ItemListTableViewController.h */,
+				7E57EAC5125F42C8003BDEC0 /* ItemListTableViewController.m */,
+				7E57EAC6125F42C8003BDEC0 /* ItemSelectionView.xib */,
+				7E57EAC7125F42C8003BDEC0 /* ItemSelectionViewController.h */,
+				7E57EAC8125F42C8003BDEC0 /* ItemSelectionViewController.m */,
+				7E57EAC9125F42C8003BDEC0 /* QtyPickerView.xib */,
+				7E57EACA125F42C8003BDEC0 /* QtyPickerViewController.h */,
+				7E57EACB125F42C8003BDEC0 /* QtyPickerViewController.m */,
+				7EBF66B91274041C00216CBE /* SectionPickerView.xib */,
+				7E57EACD125F42C8003BDEC0 /* SectionPickerViewController.h */,
+				7E57EACE125F42C8003BDEC0 /* SectionPickerViewController.m */,
+				7E57EACF125F42C8003BDEC0 /* DatePickerView.xib */,
+				7E57EAD0125F42C8003BDEC0 /* DatePickerViewController.h */,
+				7E57EAD1125F42C8003BDEC0 /* DatePickerViewController.m */,
+				7E57EAD2125F42C8003BDEC0 /* StorageAddViewController.h */,
+				7E57EAD3125F42C8003BDEC0 /* StorageAddViewController.m */,
+				7EBF66BF1274045F00216CBE /* StorageDetailView.xib */,
+				7E57EAD5125F42C8003BDEC0 /* StorageDetailViewController.h */,
+				7E57EAD6125F42C8003BDEC0 /* StorageDetailViewController.m */,
+				7E57EAD7125F42C8003BDEC0 /* StorageListTableViewController.h */,
+				7E57EAD8125F42C8003BDEC0 /* StorageListTableViewController.m */,
+				7E57EAD9125F42C8003BDEC0 /* StorageSelectionView.xib */,
+				7E57EADA125F42C8003BDEC0 /* StorageSelectionViewController.h */,
+				7E57EADB125F42C8003BDEC0 /* StorageSelectionViewController.m */,
+				7EA1EF7712608AA800D311FB /* SettingsViewController.h */,
+				7EA1EF7812608AA800D311FB /* SettingsViewController.m */,
+				32CA4F630368D1EE00C91783 /* Fridgeo_Prefix.pch */,
+				7E6B770B126A654F002395B2 /* HistoryListTableViewController.h */,
+				7E6B770C126A654F002395B2 /* HistoryListTableViewController.m */,
+				7E6B781D126B3389002395B2 /* HistoryCell.h */,
+				7E6B781E126B3389002395B2 /* HistoryCell.m */,
+				7E6B7825126B33E8002395B2 /* HistoryCell.xib */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				7E6B76C11269D573002395B2 /* Storage.h */,
+				7E6B76C21269D573002395B2 /* Storage.m */,
+				7E57EAF5125F42EF003BDEC0 /* Item.h */,
+				7E57EAF6125F42EF003BDEC0 /* Item.m */,
+				7E57EAFB125F42EF003BDEC0 /* Image.h */,
+				7E57EAFC125F42EF003BDEC0 /* Image.m */,
+				7E7CC732126717D100624154 /* Content.h */,
+				7E7CC733126717D100624154 /* Content.m */,
+				7E906AD51281010200F291D6 /* DataLoadController.h */,
+				7E906AD61281010200F291D6 /* DataLoadController.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E9EC6A0127C2A6600D141B1 /* noimage44.png */,
+				7E95EE941279B13300998CFB /* Icon.png */,
+				7E95EE951279B13300998CFB /* Icon@2x.png */,
+				7EBF673412742D4700216CBE /* Localizable.strings */,
+				7EBF672612742C9E00216CBE /* Storage.plist */,
+				7EBF67121274297600216CBE /* Item.plist */,
+				7EE5A7311272C13900EA2278 /* tbcontent.png */,
+				7EE5A7321272C13900EA2278 /* tbhistory.png */,
+				7EE5A7331272C13900EA2278 /* tbitem.png */,
+				7EE5A7341272C13900EA2278 /* tbsettings.png */,
+				7EE5A7351272C13900EA2278 /* tbstorage.png */,
+				7E57EAB4125F428C003BDEC0 /* choosePhoto.png */,
+				7E9BC5EC1269174F00C69139 /* a0024_000086.jpg */,
+				7EBF66F812741EF300216CBE /* MainWindow.xib */,
+				2819305F112F816700ECF9B4 /* Fridgeo.xcdatamodeld */,
+				8D1107310486CEB800E47090 /* Fridgeo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Fridgeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fridgeo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fridgeo;
+			productName = Fridgeo;
+			productReference = 1D6058910D05DD3D006BFB54 /* Fridgeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fridgeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ja,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Fridgeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57EAB5125F428C003BDEC0 /* choosePhoto.png in Resources */,
+				7EBF66CB1274057800216CBE /* ContentDetailView.xib in Resources */,
+				7EBF66CC1274058900216CBE /* ItemDetailView.xib in Resources */,
+				7EBF66CE127405AE00216CBE /* ItemSelectionView.xib in Resources */,
+				7EBF66CF127405C000216CBE /* QtyPickerView.xib in Resources */,
+				7EBF66BA1274041C00216CBE /* SectionPickerView.xib in Resources */,
+				7EBF66D1127405D700216CBE /* DatePickerView.xib in Resources */,
+				7EBF66C01274045F00216CBE /* StorageDetailView.xib in Resources */,
+				7EBF66C7127404D200216CBE /* StorageSelectionView.xib in Resources */,
+				7EBF66F912741EF300216CBE /* MainWindow.xib in Resources */,
+				7E9BC5ED1269174F00C69139 /* a0024_000086.jpg in Resources */,
+				7E6B7826126B33E8002395B2 /* HistoryCell.xib in Resources */,
+				7EE5A7361272C13900EA2278 /* tbcontent.png in Resources */,
+				7EE5A7371272C13900EA2278 /* tbhistory.png in Resources */,
+				7EE5A7381272C13900EA2278 /* tbitem.png in Resources */,
+				7EE5A7391272C13900EA2278 /* tbsettings.png in Resources */,
+				7EE5A73A1272C13900EA2278 /* tbstorage.png in Resources */,
+				7EBF67131274297600216CBE /* Item.plist in Resources */,
+				7EBF672712742C9E00216CBE /* Storage.plist in Resources */,
+				7EBF673512742D4700216CBE /* Localizable.strings in Resources */,
+				7E95EE961279B13300998CFB /* Icon.png in Resources */,
+				7E95EE971279B13300998CFB /* Icon@2x.png in Resources */,
+				7E9EC6A1127C2A6600D141B1 /* noimage44.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FridgeoAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* Fridgeo.xcdatamodeld in Sources */,
+				7E57EADD125F42C8003BDEC0 /* ContentDetailViewController.m in Sources */,
+				7E57EADE125F42C8003BDEC0 /* ContentAddViewController.m in Sources */,
+				7E57EADF125F42C8003BDEC0 /* ContentListTableViewController.m in Sources */,
+				7E57EAE0125F42C8003BDEC0 /* ContentTableViewCell.m in Sources */,
+				7E57EAE1125F42C8003BDEC0 /* ItemAddViewController.m in Sources */,
+				7E57EAE3125F42C8003BDEC0 /* ItemDetailViewController.m in Sources */,
+				7E57EAE4125F42C8003BDEC0 /* ItemListTableViewController.m in Sources */,
+				7E57EAE6125F42C8003BDEC0 /* ItemSelectionViewController.m in Sources */,
+				7E57EAE8125F42C8003BDEC0 /* QtyPickerViewController.m in Sources */,
+				7E57EAEA125F42C8003BDEC0 /* SectionPickerViewController.m in Sources */,
+				7E57EAEC125F42C8003BDEC0 /* DatePickerViewController.m in Sources */,
+				7E57EAED125F42C8003BDEC0 /* StorageAddViewController.m in Sources */,
+				7E57EAEF125F42C8003BDEC0 /* StorageDetailViewController.m in Sources */,
+				7E57EAF0125F42C8003BDEC0 /* StorageListTableViewController.m in Sources */,
+				7E57EAF2125F42C8003BDEC0 /* StorageSelectionViewController.m in Sources */,
+				7E57EAFD125F42EF003BDEC0 /* Item.m in Sources */,
+				7E57EB00125F42EF003BDEC0 /* Image.m in Sources */,
+				7EA1EF7A12608AA800D311FB /* SettingsViewController.m in Sources */,
+				7E7CC734126717D100624154 /* Content.m in Sources */,
+				7E6B76C31269D573002395B2 /* Storage.m in Sources */,
+				7E6B770D126A654F002395B2 /* HistoryListTableViewController.m in Sources */,
+				7E6B7820126B3389002395B2 /* HistoryCell.m in Sources */,
+				7E906AD71281010200F291D6 /* DataLoadController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EBF66B91274041C00216CBE /* SectionPickerView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E57EACC125F42C8003BDEC0 /* English */,
+				7EBF66BB1274042700216CBE /* Japanese */,
+			);
+			name = SectionPickerView.xib;
+			sourceTree = "<group>";
+		};
+		7EBF66BF1274045F00216CBE /* StorageDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E57EAD4125F42C8003BDEC0 /* English */,
+				7EBF66C11274046800216CBE /* Japanese */,
+			);
+			name = StorageDetailView.xib;
+			sourceTree = "<group>";
+		};
+		7EBF66F812741EF300216CBE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E57EB0C125F451D003BDEC0 /* English */,
+				7EBF66FA12741EFF00216CBE /* Japanese */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7EBF67121274297600216CBE /* Item.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBF67101274296E00216CBE /* English */,
+				7EBF67141274297F00216CBE /* Japanese */,
+			);
+			name = Item.plist;
+			sourceTree = "<group>";
+		};
+		7EBF672612742C9E00216CBE /* Storage.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBF672412742C5E00216CBE /* English */,
+				7EBF672812742CA900216CBE /* Japanese */,
+			);
+			name = Storage.plist;
+			sourceTree = "<group>";
+		};
+		7EBF673412742D4700216CBE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBF673212742D2A00216CBE /* English */,
+				7EBF673612742D5200216CBE /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fridgeo_Prefix.pch;
+				INFOPLIST_FILE = "Fridgeo-Info.plist";
+				PRODUCT_NAME = Fridgeo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fridgeo_Prefix.pch;
+				INFOPLIST_FILE = "Fridgeo-Info.plist";
+				PRODUCT_NAME = Fridgeo;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E9D772E127F324B004DD36A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		7E9D772F127F324B004DD36A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kazuo Nasuta";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fridgeo_Prefix.pch;
+				INFOPLIST_FILE = "Fridgeo-Info.plist";
+				PRODUCT_NAME = Fridgeo;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2AF2F1D6-30FE-4617-AEFF-7084C0CF0605";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kazuo Nasuta (4NAN7RX796)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6CB542C9-8AB8-4952-97ED-FBF0762B7522";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fridgeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				7E9D772F127F324B004DD36A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fridgeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				7E9D772E127F324B004DD36A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* Fridgeo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* Fridgeo.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* Fridgeo.xcdatamodel */;
+			path = Fridgeo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

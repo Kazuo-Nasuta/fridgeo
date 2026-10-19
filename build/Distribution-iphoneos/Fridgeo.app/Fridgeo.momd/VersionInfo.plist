@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>Fridgeo</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>Fridgeo</key>
+		<dict>
+			<key>Content</key>
+			<data>
+			miV0hqJ53+eP2LPxozEGPy83FCtA6QKYBQaiXk4rjek=
+			</data>
+			<key>History</key>
+			<data>
+			ZUhosV3EqSDyBi7UjiOBdAKnziW2rn5yDaO4+qnQBS8=
+			</data>
+			<key>Image</key>
+			<data>
+			89fXT1KRoIyvTJGKikVi4a2g4+baNNwZHRPjMZo4ecs=
+			</data>
+			<key>Item</key>
+			<data>
+			+JbVT1ENbb8hKRNct2HUX24qLNn9kXhRG7OoRk/SCPE=
+			</data>
+			<key>Storage</key>
+			<data>
+			v1XVwG2S39y/xzx9EdVMXohs+bK7hC4xD4JoUrj+bHw=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>
